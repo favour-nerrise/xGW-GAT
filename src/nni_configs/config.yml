@@ -1,0 +1,16 @@
+experimentName: xGWGAT
+searchSpaceFile: search_space.json
+trialCommand: python main.py --enable_nni
+trialCodeDirectory: ../../
+trialGpuNumber: 1
+trialConcurrency: 4
+maxExperimentDuration: 2h
+maxTrialNumber: 20
+tuner:
+  name: TPE
+  classArgs:
+    optimize_mode: maximize
+trainingService:
+  platform: local
+  useActiveGpu: True
+experimentWorkingDirectory: ../../nni-experiments/

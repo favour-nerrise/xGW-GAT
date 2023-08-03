@@ -1,0 +1,6 @@
+{
+    "num_heads": {
+      "_type": "choice",
+      "_value": [2, 4, 6, 8, 10]
+    }
+}
