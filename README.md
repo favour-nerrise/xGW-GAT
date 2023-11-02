@@ -1,6 +1,6 @@
 # xGW-GAT
 
-This repository is the official implementation of `xGW-GAT`, an explainable, graph attention network for n-ary, transductive, classification tasks for functional brain connectomes and gait impairment severity. Our associated paper, **"An Explainable Geometric-Weighted Graph Attention Network for Identifying Functional Networks Associated with Gait Impairment"** has been accepted to MICCAI 2023 and is supported by the MICCAI 2023 STAR award. Check out our [preprint on arXiv](https://arxiv.org/abs/2307.13108) *(publication coming soon)*!
+This repository is the official implementation of `xGW-GAT`, an explainable, graph attention network for n-ary, transductive, classification tasks for functional brain connectomes and gait impairment severity. Our associated paper, **"An Explainable Geometric-Weighted Graph Attention Network for Identifying Functional Networks Associated with Gait Impairment"** has been accepted to MICCAI 2023 and is supported by the MICCAI 2023 STAR award. Check out our [paper]([https://arxiv.org/abs/2307.13108](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_68)) and our [oral talk](https://youtu.be/ZqoIfHHcIXc)!
 
 Our pipeline of three modules: 
 1) A stratified, learning-based sample selection method leveraging Riemannian metrics for connectome similarity comparisons
@@ -18,10 +18,10 @@ Our pipeline of three modules:
 > <sup>2</sup>Department of Psychiatry and Behavioral Sciences, Stanford University, Stanford, CA<br/>
 > <sup>3</sup>Dept. of Neurology and Neurological Sciences, Stanford University, Stanford, CA, USA<br/>
 >
-> **Abstract:** *One of the hallmark symptoms of Parkinson's Disease (PD) is the progressive loss of postural reflexes, which eventually leads to gait difficulties and balance problems. Identifying disruptions in brain function associated with gait impairment could be crucial in better understanding PD motor progression, thus advancing the development of more effective and personalized therapeutics. In this work, we present an explainable, geometric, weighted-graph attention neural network (xGW-GAT) to identify functional networks predictive of the progression of gait difficulties in individuals with PD. xGW-GAT predicts the multi-class gait impairment on the MDS Unified PD Rating Scale (MDS-UPDRS). Our computational- and data-efficient model represents functional connectomes as symmetric positive definite (SPD) matrices on a Riemannian manifold to explicitly encode pairwise interactions of entire connectomes, based on which we learn an attention mask yielding individual- and group-level explainability. Applied to our resting-state functional MRI (rs-fMRI) dataset of individuals with PD, xGW-GAT identifies functional connectivity patterns associated with gait impairment in PD and offers interpretable explanations of functional subnetworks associated with motor impairment. Our model successfully outperforms several existing methods while simultaneously revealing clinically-relevant connectivity patterns. The source code is available at [this https URL](https://arxiv.org/abs/2307.13108) .*
+> **Abstract:** *One of the hallmark symptoms of Parkinson's Disease (PD) is the progressive loss of postural reflexes, which eventually leads to gait difficulties and balance problems. Identifying disruptions in brain function associated with gait impairment could be crucial in better understanding PD motor progression, thus advancing the development of more effective and personalized therapeutics. In this work, we present an explainable, geometric, weighted-graph attention neural network (xGW-GAT) to identify functional networks predictive of the progression of gait difficulties in individuals with PD. xGW-GAT predicts the multi-class gait impairment on the MDS Unified PD Rating Scale (MDS-UPDRS). Our computational- and data-efficient model represents functional connectomes as symmetric positive definite (SPD) matrices on a Riemannian manifold to explicitly encode pairwise interactions of entire connectomes, based on which we learn an attention mask yielding individual- and group-level explainability. Applied to our resting-state functional MRI (rs-fMRI) dataset of individuals with PD, xGW-GAT identifies functional connectivity patterns associated with gait impairment in PD and offers interpretable explanations of functional subnetworks associated with motor impairment. Our model successfully outperforms several existing methods while simultaneously revealing clinically relevant connectivity patterns.
 
 ## Installation Instructions
-- Download the ZIP folder or make a copy of this repository, e.g.  ```git clone https://github.com/favour-nerrise/xGW-GAT.git```. 
+- Download the ZIP folder or copy this repository, e.g.  ```git clone https://github.com/favour-nerrise/xGW-GAT.git```. 
 
 ### Dependencies
 This code was prepared using Python 3.10.4 and depends on the following packages:
@@ -90,14 +90,14 @@ This code was developed by Favour Nerrise (fnerrise@stanford.edu). We also thank
 
 
 ## Citation
-Please cite our paper *(pre-print for now)* when using **xGW-GAT**:
+Please cite our paper when using **xGW-GAT**:
 ```latex
-@misc{nerrise2023explainable,
-      title={An Explainable Geometric-Weighted Graph Attention Network for Identifying Functional Networks Associated with Gait Impairment}, 
-      author={Favour Nerrise and Qingyu Zhao and Kathleen L. Poston and Kilian M. Pohl and Ehsan Adeli},
-      year={2023},
-      eprint={2307.13108},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{nerrise2023explainable,
+  title={An Explainable Geometric-Weighted Graph Attention Network for Identifying Functional Networks Associated with Gait Impairment},
+  author={Nerrise, Favour and Zhao, Qingyu and Poston, Kathleen L and Pohl, Kilian M and Adeli, Ehsan},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={723--733},
+  year={2023},
+  organization={Springer}
 }
 ```
