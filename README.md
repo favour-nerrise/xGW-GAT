@@ -1,6 +1,6 @@
 # xGW-GAT
 
-This repository is the official implementation of `xGW-GAT`, an explainable, graph attention network for n-ary, transductive, classification tasks for functional brain connectomes and gait impairment severity. Our associated paper, **"An Explainable Geometric-Weighted Graph Attention Network for Identifying Functional Networks Associated with Gait Impairment"** has been accepted to MICCAI 2023 and is supported by the MICCAI 2023 STAR award. Check out our [preprint](https://arxiv.org/abs/2307.13108), [paper](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_68) and our [oral talk](https://youtu.be/ZqoIfHHcIXc)!
+This repository is the official implementation of `xGW-GAT`, an explainable, graph attention network for n-ary, transductive, classification tasks for functional brain connectomes and gait impairment severity. Our associated paper, **"An Explainable Geometric-Weighted Graph Attention Network for Identifying Functional Networks Associated with Gait Impairment"** has been accepted to MICCAI 2023 and is supported by the MICCAI 2023 STAR award. Check out our [preprint](https://arxiv.org/abs/2307.13108), [paper](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_68), and our [oral talk](https://youtu.be/ZqoIfHHcIXc)!
 
 Our pipeline of three modules: 
 1) A stratified, learning-based sample selection method leveraging Riemannian metrics for connectome similarity comparisons
